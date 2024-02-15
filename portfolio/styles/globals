@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans";
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  border: 3px red dashed;
+  background-color: gray;
+}
+
+.container {
+  max-width: 100%;
+  height: 100%;
+  background-color: beige;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: cadetblue;
+  height: 120px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 12px 16px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.bentobox {
+  padding: 10px;
+}
+
+.one {
+  background-color: red;
+  grid-column: 1/3;
+  grid-row-end: 1;
+  background-image: url(/images/skills.webp);
+}
+
+.one img {
+  height: 75px;
+  margin: 5px;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+
+.two {
+  background-color: blue;
+}
+.three {
+  background-color: yellow;
+}
+.four {
+  background-color: green;
+  grid-column: 2/4;
+  grid-row-end: 2;
+}

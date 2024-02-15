@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/globals.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario Pringle</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Cursor -->
+    <div id="cursor"></div>
+    <!-- Main Menu -->
+    <div class="container" id="main-menu">
+      <div class="menu-container">
+        <div>
+          <h1>Mario Pringle</h1>
+          <p>Software Engineer & UX/UI Designer</p>
+        </div>
+        <div class="menu">
+          <a href="#about-me" class="section-links">About Me</a>
+          <a href="#skills" class="section-links">Skills</a>
+          <a href="#projects" class="section-links">Projects</a>
+          <a href="#contact" class="section-links">Contact</a>
+
+          <a href="/files/MarioPringle_RESUME.pdf" class="section-links"
+            >Full Resume <i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Me section -->
+    <div class="container" id="about-me">
+      <div class="about-container" data-tilt data-tilt-max="5">
+        <img src="/images/about-me.jpeg" />
+        <div class="about-me">
+          <h3>About Me</h3>
+          <p align="justify">
+            Hey there, I'm Mario Pringle, a
+            <span style="color: white">Software Engineer</span> from Mexico. I
+            dove into coding around 2016, and it's been a wild ride ever since.
+            I'm a total tech enthusiast, always on the lookout for new things to
+            learn.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+
+    <div class="container" id="skills">
+      <div>
+        <h3>Skills</h3>
+
+        <div class="wrapper">
+          <div class="web bentocard">
+            <i class="fa-brands fa-html5" id="html"></i>
+            <i class="fa-brands fa-css3-alt" id="css"></i>
+            <i class="fa-brands fa-square-js" id="js"></i>
+            <p>Web Developer</p>
+          </div>
+          <div class="design bentocard">
+            <div class="skill-design">
+              <i class="fa-brands fa-figma" id="figma"></i>
+              <img src="/svgs/ps.svg" id="ps" />
+            </div>
+            <p>Web Designer</p>
+          </div>
+          <div class="frameworks bentocard">
+            <img src="/svgs/nextjs.svg" id="next" />
+            <i class="fa-brands fa-react" id="react"></i>
+            <i class="fa-brands fa-vuejs" id="vue"></i>
+            <p>Frameworks</p>
+          </div>
+          <div class="databases bentocard">
+            <img src="/svgs/sql.svg" id="sql" />
+            <p>Databases</p>
+          </div>
+          <div class="python bentocard">
+            <i class="fa-brands fa-python icon" id="python"></i>
+            <p>Python</p>
+          </div>
+          <div class="skill bentocard">
+            <i class="fa-brands fa-github" id="github"></i>
+            <p>GitHub</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container" id="projects">
+      <div class="projects-wrapper">
+        <div class="project-title">
+          <h3>Projects</h3>
+        </div>
+        <div class="projects">
+          <div class="project-card" id="p-cards">
+            <div>
+              <div id="title">
+                <a href="https://www.lmawines.com" class="unselectable"
+                  >E-Commerce site for LMA Wines
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+              <p align="justify" style="margin-bottom: 4px">
+                I contributed to the development of an e-commerce website for a
+                wine distribution company named LMA Wines.
+              </p>
+              <p align="justify" style="margin-bottom: 4px">
+                As a team, we developed both the front-end and back-end of the
+                website.
+              </p>
+              <p align="justify" style="margin-bottom: 4px">
+                I worked as part of a team to develop modules such as the main
+                menu, online sales section, product display, discount offers,
+                contact, and shopping cart.
+              </p>
+            </div>
+            <div class="tags-wrapper">
+              <p class="tags">React</p>
+              <p class="tags">SQL</p>
+              <p class="tags">Web App</p>
+            </div>
+          </div>
+
+          <div class="project-card" id="p-cards">
+            <div>
+              <div id="title">
+                <p class="unselectable" id="p-card-title">
+                  Psychometric Test App for University
+                </p>
+              </div>
+              <p align="justify" style="margin-bottom: 4px">
+                I developed an application for an internal program at my
+                university, which is designed to apply a psychometric exam to
+                students.
+              </p>
+              <p align="justify" style="margin-bottom: 4px">
+                In this exam, students are required to complete various tests
+                involving mental agility, character sorting, and memorization.
+              </p>
+              <p align="justify" style="margin-bottom: 4px">
+                - The administrator can export all the data as a .xls file that
+                can be used in Excel.
+              </p>
+            </div>
+            <div class="tags-wrapper">
+              <p class="tags">Next.js</p>
+              <p class="tags">Tailwind CSS</p>
+            </div>
+          </div>
+
+          <div class="project-card" id="p-cards">
+            <div>
+              <div id="title">
+                <a href="https://www.mariopringle.com/" class="unselectable"
+                  >This Portfolio
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+              <p align="justify">
+                This is my personal Software Engineer Portfolio. I always wanted
+                a portfolio with a cool design, and I finally made it!. All this
+                project was made without a framework, I wanted to demonstrate my
+                skills with vanilla JavaScript and CSS, probably I'll remake
+                this portfolio with a framework to compare the results.
+              </p>
+            </div>
+            <div class="tags-wrapper">
+              <p class="tags" id="html">HTML</p>
+              <p class="tags" id="css">CSS</p>
+              <p class="tags" id="js">JS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+
+    <div class="container" id="contact">
+      <div class="contact-wrapper">
+        <div class="contact-main">
+          <div class="contact-text">
+            <h3>Contact</h3>
+            <p>
+              If you'd like to hire or collaborate with me, please fill this
+              form. Feel free to detail as much as you want!
+            </p>
+          </div>
+          <div class="contact-sec">
+            <a onclick="copyToClipboard()" class="email unselectable">
+              <i class="fa-regular fa-copy"></i> itspringle1213@gmail.com
+              <i class="fa-solid fa-check" id="copied"></i>
+            </a>
+            <button class="button submitBtn" id="send" form="contact-form">
+              Send
+            </button>
+          </div>
+        </div>
+        <div class="form-container">
+          <form action="" id="contact-form">
+            <input
+              type="text"
+              id="user_name"
+              name="user_name"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              id="user_email"
+              name="user_email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="user_message"
+              id="user_message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+            ></textarea>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="container" id="footer">
+      <div>
+        <a href="#about-me" class="section-links">About Me</a>
+        <a href="#skills" class="section-links">Skills</a>
+        <a href="#projects" class="section-links">Projects</a>
+        <a href="#contact" class="section-links">Contact</a>
+      </div>
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/mario-pringle-243401281/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/ImPringle" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <!-- <a href="https://www.instagram.com/ayopringle/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a> -->
+      </div>
+    </div>
+
+    <!-- Mobile 425px -->
+    <!-- Navbar -->
+    <div class="mobile-container sticky">
+      <div class="navbar">
+        <h1>Mario Pringle</h1>
+        <i
+          onclick="sidebarToggle()"
+          class="fa-solid fa-bars"
+          style="font-size: larger"
+        ></i>
+      </div>
+    </div>
+
+    <div class="sidebar-menu-container">
+      <div style="width: 25%" onclick="sidebarToggle()"></div>
+      <div class="sidebar-menu">
+        <a
+          href="https://www.mariopringle.com/"
+          class="sidebar-link"
+          onclick="sidebarToggle()"
+          >Home</a
+        >
+        <a
+          href="https://www.linkedin.com/in/mario-pringle-243401281/"
+          class="sidebar-link"
+          onclick="sidebarToggle()"
+          >LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+        <a
+          href="/files/MarioPringle_RESUME.pdf"
+          class="sidebar-link"
+          onclick="sidebarToggle()"
+          >Full Resume <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- About Me -->
+
+    <div class="mobile-container" id="mobile-about-me">
+      <img src="/images/about-me.jpeg" />
+      <div>
+        <h2>About Me</h2>
+        <p align="justify">
+          Hey there, I'm Mario Pringle, a
+          <span style="color: white">Software Engineer</span> from Mexico. I
+          dove into coding around 2016, and it's been a wild ride ever since.
+          I'm a total tech enthusiast, always on the lookout for new things to
+          learn.
+        </p>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="mobile-container" id="mobile-skills">
+      <h2>Skills</h2>
+      <div class="skill-wrapper">
+        <div class="web mobile-bentocard">
+          <div lass="skill-design">
+            <i class="fa-brands fa-html5" id="html"></i>
+            <i class="fa-brands fa-css3-alt" id="css"></i>
+            <i class="fa-brands fa-square-js" id="js"></i>
+          </div>
+          <p>Web Developer</p>
+        </div>
+        <div class="design mobile-bentocard">
+          <div class="skill-design">
+            <i class="fa-brands fa-figma" id="figma"></i>
+            <img src="/svgs/ps.svg" id="ps" />
+          </div>
+          <p>Web Designer</p>
+        </div>
+        <div class="frameworks mobile-bentocard">
+          <div class="skill-design">
+            <img src="/svgs/nextjs.svg" id="next" />
+            <i class="fa-brands fa-react" id="react"></i>
+            <i class="fa-brands fa-vuejs" id="vue"></i>
+          </div>
+          <p>Frameworks</p>
+        </div>
+        <div style="display: flex; gap: 10px">
+          <div class="databases mobile-bentocard" style="flex: 1 1">
+            <img src="/svgs/sql.svg" id="sql" />
+            <p>Databases</p>
+          </div>
+          <div class="python mobile-bentocard" style="flex: 1 1">
+            <i class="fa-brands fa-python icon" id="python"></i>
+            <p>Python</p>
+          </div>
+          <div class="skill mobile-bentocard" style="flex: 1 1">
+            <i class="fa-brands fa-github" id="github"></i>
+            <p>GitHub</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="mobile-container" id="mobile-projects">
+      <h2>Projects</h2>
+      <div class="projects" id="projects-wrapper">
+        <div class="project-card">
+          <div>
+            <div id="mobile-title">
+              <a class="unselectable" href="https://www.lmawines.com"
+                >E-Commerce site for LMA Wines</a
+              >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <p align="justify" style="margin-bottom: 4px">
+              I contributed to the development of an e-commerce website for a
+              wine distribution company named LMA Wines.
+            </p>
+            <p align="justify" style="margin-bottom: 4px">
+              As a team, we developed both the front-end and back-end of the
+              website.
+            </p>
+            <p align="justify" style="margin-bottom: 4px">
+              I worked as part of a team to develop modules such as the main
+              menu, online sales section, product display, discount offers,
+              contact, and shopping cart.
+            </p>
+          </div>
+          <div class="tags-wrapper">
+            <p class="tags">React</p>
+            <p class="tags">SQL</p>
+            <p class="tags">Web App</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div id="mobile-title">
+              <p
+                id="mobile-p-card-title"
+                class="unselectable"
+                href="https://www.mariopringle.com"
+              >
+                Psychometric Test App for University
+              </p>
+            </div>
+            <p align="justify" style="margin-bottom: 4px">
+              I developed an application for an internal program at my
+              university, which is designed to apply a psychometric exam to
+              students.
+            </p>
+            <p align="justify" style="margin-bottom: 4px">
+              - In this exam, students are required to complete various tests
+              involving mental agility, character sorting, and memorization.
+            </p>
+            <p align="justify" style="margin-bottom: 4px">
+              - Based on their scores, an approval status can be determined. The
+              application stores the results in a database, and the
+              administrator can access the test history.
+            </p>
+            <p align="justify" style="margin-bottom: 4px">
+              - The administrator can export all the data as a .xls file that
+              can be used in Excel.
+            </p>
+          </div>
+          <div class="tags-wrapper">
+            <p class="tags">Next.js</p>
+            <p class="tags">Tailwind CSS</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div id="mobile-title">
+              <a class="unselectable" href="https://www.mariopringle.com"
+                >This Portfolio</a
+              >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <p align="justify">
+              This is my personal Software Engineer Portfolio. I always wanted a
+              portfolio with a cool design, and I finally made it!. All this
+              project was made without a framework, I wanted to demonstrate my
+              skills with vanilla JavaScript and CSS, probably I'll remake this
+              portfolio with a framework to compare the results.
+            </p>
+          </div>
+          <div class="tags-wrapper">
+            <p class="tags" id="html">HTML</p>
+            <p class="tags" id="css">CSS</p>
+            <p class="tags" id="js">JS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="mobile-container">
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/mario-pringle-243401281/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/ImPringle" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <!-- <a href="https://www.instagram.com/ayopringle/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a> -->
+      </div>
+    </div>
+
+    <!-- Scripts Imports -->
+    <script src="/scripts/functions.js"></script>
+    <script src="/scripts/vanilla-tilt.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="/scripts/email.js"></script>
+  </body>
+</html>
